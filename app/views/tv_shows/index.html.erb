@@ -1,0 +1,16 @@
+<h1>TvShows</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @tv_shows.each do |tv_show| %>
+      <tr>
+        <td><%= tv_show.title %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
